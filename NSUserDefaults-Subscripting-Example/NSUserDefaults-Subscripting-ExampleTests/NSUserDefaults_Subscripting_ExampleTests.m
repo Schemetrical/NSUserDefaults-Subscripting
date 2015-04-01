@@ -1,6 +1,6 @@
 //
-//  NSUserDefaults_Subscripting_DemoTests.m
-//  NSUserDefaults Subscripting DemoTests
+//  NSUserDefaults_Subscripting_ExampleTests.m
+//  NSUserDefaults-Subscripting-ExampleTests
 //
 //  Created by Yichen Cao on 4/1/15.
 //  Copyright (c) 2015 Schemetrical. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface NSUserDefaults_Subscripting_DemoTests : XCTestCase
+@interface NSUserDefaults_Subscripting_ExampleTests : XCTestCase
 
 @end
 
-@implementation NSUserDefaults_Subscripting_DemoTests
+@implementation NSUserDefaults_Subscripting_ExampleTests
 
 - (void)setUp {
     [super setUp];

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:NSUserDefaults Subscripting Demo.xcodeproj">
+      location = "self:NSUserDefaults-Subscripting-Example.xcodeproj">
    </FileRef>
 </Workspace>
