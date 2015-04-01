@@ -8,6 +8,11 @@ language: objective-c
 # before_install:
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
+
+POD_NAME ="NSUserDefaults+Subscripting"
+USER_NAME = "Schemetrical"
+USER_EMAIL = "Schemetrical@icloud.com"
+
 install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
