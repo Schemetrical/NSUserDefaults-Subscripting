@@ -6,7 +6,9 @@
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
-
+POD_NAME = "NSUserDefaults+Subscripting"
+USER_NAME = "Schemetrical"
+USER_EMAIL = @"Schemetrical@icloud.com"
 Pod::Spec.new do |s|
   s.name             = "${POD_NAME}"
   s.version          = "1.0.0"
