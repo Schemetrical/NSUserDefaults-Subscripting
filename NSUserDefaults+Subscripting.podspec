@@ -6,11 +6,9 @@
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
-POD_NAME ="NSUserDefaults+Subscripting"
-USER_NAME = "Schemetrical"
-USER_EMAIL = "Schemetrical@icloud.com"
+
 Pod::Spec.new do |s|
-  s.name             = "${POD_NAME}"
+  s.name             = "NSUserDefaults+Subscripting"
   s.version          = "1.0.0"
   s.summary          = "Simple subscripting with NSUserDefaults."
   s.description      = <<-DESC
@@ -20,7 +18,7 @@ Pod::Spec.new do |s|
                        DESC
   s.homepage         = "https://github.com/Schemetrical/NSUserDefaults-Subscripting"
   s.license          = 'MIT'
-  s.author           = { "${USER_NAME}" => "${USER_EMAIL}" }
+  s.author           = { "Schemetrical" => "Schemetrical@icloud.com" }
   s.source           = { :git => "https://github.com/Schemetrical/NSUserDefaults-Subscripting.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/Schemetrical'
 
@@ -29,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    '${POD_NAME}' => ['Pod/Assets/*.png']
+    'NSUserDefaults+Subscripting' => ['Pod/Assets/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
