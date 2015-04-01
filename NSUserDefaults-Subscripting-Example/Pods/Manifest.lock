@@ -1,0 +1,14 @@
+PODS:
+  - NSUserDefaults+Subscripting (1.0.0)
+
+DEPENDENCIES:
+  - NSUserDefaults+Subscripting (from `../`)
+
+EXTERNAL SOURCES:
+  NSUserDefaults+Subscripting:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NSUserDefaults+Subscripting: 982515a7830e3bbd9fd8df13ea9288db672dc609
+
+COCOAPODS: 0.36.1

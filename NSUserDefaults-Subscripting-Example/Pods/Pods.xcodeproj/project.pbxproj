@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B97973731CD9C744680601B /* Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C18F60B8097FC0760EE9C520 /* Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting-dummy.m */; };
+		11716E93B4217B58BCC5E9DE /* NSUserDefaults+Subscripting.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B26B112CE813573DA46032 /* NSUserDefaults+Subscripting.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1A6B6B13112DA357E61D1ADE /* NSUserDefaults+Subscripting.h in Headers */ = {isa = PBXBuildFile; fileRef = 2978B8CBD98627530E4922DA /* NSUserDefaults+Subscripting.h */; };
+		49DE3BC481A1350A29D70903 /* Pods-NSUserDefaults-Subscripting-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7A04BC1F3E79D1E2D6F3F0 /* Pods-NSUserDefaults-Subscripting-Example-dummy.m */; };
+		642C091C3A32C1A417432FDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E07E28116DC1B998844C906 /* Foundation.framework */; };
+		88E934F915E03186BFB5D91D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E07E28116DC1B998844C906 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E57F1D5C000C192FA48D7EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57C58DCDEC6022565955BBDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7CE2755BC1480E52FE6F524;
+			remoteInfo = "Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0593100A50F3FAABD6F38364 /* Pods-NSUserDefaults-Subscripting-Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSUserDefaults-Subscripting-Example-environment.h"; sourceTree = "<group>"; };
+		14B26B112CE813573DA46032 /* NSUserDefaults+Subscripting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Subscripting.m"; sourceTree = "<group>"; };
+		2978B8CBD98627530E4922DA /* NSUserDefaults+Subscripting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Subscripting.h"; sourceTree = "<group>"; };
+		43335F9A5DF4E1107AF7B578 /* Pods-NSUserDefaults-Subscripting-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSUserDefaults-Subscripting-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E07E28116DC1B998844C906 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4F7A04BC1F3E79D1E2D6F3F0 /* Pods-NSUserDefaults-Subscripting-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSUserDefaults-Subscripting-Example-dummy.m"; sourceTree = "<group>"; };
+		5336D8ACEA411543EA8B1C46 /* Pods-NSUserDefaults-Subscripting-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSUserDefaults-Subscripting-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		55434A7426C35FC232615F15 /* Pods-NSUserDefaults-Subscripting-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSUserDefaults-Subscripting-Example-resources.sh"; sourceTree = "<group>"; };
+		5768F098AE1716A7A7B825D0 /* Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting-Private.xcconfig"; sourceTree = "<group>"; };
+		7651E2F5E10BC06F43AB2078 /* Pods-NSUserDefaults-Subscripting-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSUserDefaults-Subscripting-Example.release.xcconfig"; sourceTree = "<group>"; };
+		79B27C96EE11354D6E43F1DA /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8883F55F84140B4A2B4A5544 /* libPods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC64D76CBEC881AF8E26D997 /* Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting.xcconfig"; sourceTree = "<group>"; };
+		AEC2CECDC419C2769748A3C2 /* libPods-NSUserDefaults-Subscripting-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NSUserDefaults-Subscripting-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18F60B8097FC0760EE9C520 /* Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting-dummy.m"; sourceTree = "<group>"; };
+		CA2071B4C9402AA2ABEFB05D /* Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting-prefix.pch"; sourceTree = "<group>"; };
+		F81AF4D49A1FE5D8983FD911 /* Pods-NSUserDefaults-Subscripting-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSUserDefaults-Subscripting-Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A0AB3458B5DA048BEF06449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E934F915E03186BFB5D91D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98EB72CD680D7E2E3056FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642C091C3A32C1A417432FDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		062B1ABF9288413275FDA021 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98A85A70BFB7D9F426342A20 /* NSUserDefaults+Subscripting */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		354FADBBF23FD6224E398D2A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2978B8CBD98627530E4922DA /* NSUserDefaults+Subscripting.h */,
+				14B26B112CE813573DA46032 /* NSUserDefaults+Subscripting.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		46B442491D2D5C1A1D3E7AB5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDE1DF6DC9C16B56D5AD04B7 /* Pods-NSUserDefaults-Subscripting-Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		504A4BFCBD7136200B923183 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				354FADBBF23FD6224E398D2A /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		5D75BD1D2ABD4D388AC492E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEFA3BFEFFDDD7E8201C9C6B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		877A88D30B646C1F93EC38C7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC64D76CBEC881AF8E26D997 /* Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting.xcconfig */,
+				5768F098AE1716A7A7B825D0 /* Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting-Private.xcconfig */,
+				C18F60B8097FC0760EE9C520 /* Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting-dummy.m */,
+				CA2071B4C9402AA2ABEFB05D /* Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "NSUserDefaults-Subscripting-Example/Pods/Target Support Files/Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting";
+			sourceTree = "<group>";
+		};
+		8E767A2EE3CDAC750EA1B28C = {
+			isa = PBXGroup;
+			children = (
+				79B27C96EE11354D6E43F1DA /* Podfile */,
+				062B1ABF9288413275FDA021 /* Development Pods */,
+				5D75BD1D2ABD4D388AC492E3 /* Frameworks */,
+				9705724EDF44FB5B288EC93D /* Products */,
+				46B442491D2D5C1A1D3E7AB5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9705724EDF44FB5B288EC93D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEC2CECDC419C2769748A3C2 /* libPods-NSUserDefaults-Subscripting-Example.a */,
+				8883F55F84140B4A2B4A5544 /* libPods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98A85A70BFB7D9F426342A20 /* NSUserDefaults+Subscripting */ = {
+			isa = PBXGroup;
+			children = (
+				504A4BFCBD7136200B923183 /* Pod */,
+				877A88D30B646C1F93EC38C7 /* Support Files */,
+			);
+			name = "NSUserDefaults+Subscripting";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BEFA3BFEFFDDD7E8201C9C6B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4E07E28116DC1B998844C906 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FDE1DF6DC9C16B56D5AD04B7 /* Pods-NSUserDefaults-Subscripting-Example */ = {
+			isa = PBXGroup;
+			children = (
+				5336D8ACEA411543EA8B1C46 /* Pods-NSUserDefaults-Subscripting-Example-acknowledgements.markdown */,
+				43335F9A5DF4E1107AF7B578 /* Pods-NSUserDefaults-Subscripting-Example-acknowledgements.plist */,
+				4F7A04BC1F3E79D1E2D6F3F0 /* Pods-NSUserDefaults-Subscripting-Example-dummy.m */,
+				0593100A50F3FAABD6F38364 /* Pods-NSUserDefaults-Subscripting-Example-environment.h */,
+				55434A7426C35FC232615F15 /* Pods-NSUserDefaults-Subscripting-Example-resources.sh */,
+				F81AF4D49A1FE5D8983FD911 /* Pods-NSUserDefaults-Subscripting-Example.debug.xcconfig */,
+				7651E2F5E10BC06F43AB2078 /* Pods-NSUserDefaults-Subscripting-Example.release.xcconfig */,
+			);
+			name = "Pods-NSUserDefaults-Subscripting-Example";
+			path = "Target Support Files/Pods-NSUserDefaults-Subscripting-Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BA0175324048A9CA79722569 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6B6B13112DA357E61D1ADE /* NSUserDefaults+Subscripting.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CE03098E1B5E2FCD1ADDACFF /* Pods-NSUserDefaults-Subscripting-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7AFB00A9CCA65E508F71EFF /* Build configuration list for PBXNativeTarget "Pods-NSUserDefaults-Subscripting-Example" */;
+			buildPhases = (
+				2A192EAFEA77C83334F03C36 /* Sources */,
+				D98EB72CD680D7E2E3056FAE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4D7EDF09D0076806CDDA852 /* PBXTargetDependency */,
+			);
+			name = "Pods-NSUserDefaults-Subscripting-Example";
+			productName = "Pods-NSUserDefaults-Subscripting-Example";
+			productReference = AEC2CECDC419C2769748A3C2 /* libPods-NSUserDefaults-Subscripting-Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E7CE2755BC1480E52FE6F524 /* Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A560418425B73C6335B74B22 /* Build configuration list for PBXNativeTarget "Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting" */;
+			buildPhases = (
+				7B7CF99A6ECC194C0D0AD8D2 /* Sources */,
+				2A0AB3458B5DA048BEF06449 /* Frameworks */,
+				BA0175324048A9CA79722569 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting";
+			productName = "Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting";
+			productReference = 8883F55F84140B4A2B4A5544 /* libPods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57C58DCDEC6022565955BBDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 383CAB7DBF7CA4DE9B7FC007 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E767A2EE3CDAC750EA1B28C;
+			productRefGroup = 9705724EDF44FB5B288EC93D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE03098E1B5E2FCD1ADDACFF /* Pods-NSUserDefaults-Subscripting-Example */,
+				E7CE2755BC1480E52FE6F524 /* Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A192EAFEA77C83334F03C36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49DE3BC481A1350A29D70903 /* Pods-NSUserDefaults-Subscripting-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B7CF99A6ECC194C0D0AD8D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11716E93B4217B58BCC5E9DE /* NSUserDefaults+Subscripting.m in Sources */,
+				0B97973731CD9C744680601B /* Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4D7EDF09D0076806CDDA852 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting";
+			target = E7CE2755BC1480E52FE6F524 /* Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting */;
+			targetProxy = 7E57F1D5C000C192FA48D7EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11B61D9FA4F8E5928FDF812A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F81AF4D49A1FE5D8983FD911 /* Pods-NSUserDefaults-Subscripting-Example.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		161D5E3F3A17F7248DD20AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43DDD214FB46E143A6C2D823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		66ADE4334A7A795BFD20BEA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5768F098AE1716A7A7B825D0 /* Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting/Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7149A9157ADC03239B8A1615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5768F098AE1716A7A7B825D0 /* Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting/Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F330DFE4DA4B5748B411593D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7651E2F5E10BC06F43AB2078 /* Pods-NSUserDefaults-Subscripting-Example.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		383CAB7DBF7CA4DE9B7FC007 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43DDD214FB46E143A6C2D823 /* Debug */,
+				161D5E3F3A17F7248DD20AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A560418425B73C6335B74B22 /* Build configuration list for PBXNativeTarget "Pods-NSUserDefaults-Subscripting-Example-NSUserDefaults+Subscripting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7149A9157ADC03239B8A1615 /* Debug */,
+				66ADE4334A7A795BFD20BEA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7AFB00A9CCA65E508F71EFF /* Build configuration list for PBXNativeTarget "Pods-NSUserDefaults-Subscripting-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B61D9FA4F8E5928FDF812A /* Debug */,
+				F330DFE4DA4B5748B411593D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57C58DCDEC6022565955BBDE /* Project object */;
+}
