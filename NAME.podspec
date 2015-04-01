@@ -12,10 +12,9 @@ Pod::Spec.new do |s|
   s.version          = "1.0.0"
   s.summary          = "Simple subscripting with NSUserDefaults."
   s.description      = <<-DESC
-                       An optional longer description of ${POD_NAME}
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       Simple subscripting with NSUserDefaults.
+                       `id object = [NSUserDefaults standardUserDefaults][@"key"]`
+                       `[NSUserDefaults standardUserDefaults][@"key"] = object`
                        DESC
   s.homepage         = "https://github.com/Schemetrical/NSUserDefaults-Subscripting"
   s.license          = 'MIT'
@@ -23,8 +22,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/Schemetrical/NSUserDefaults-Subscripting.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/Schemetrical'
 
-  s.platform     = :ios, '7.0'
-  s.requires_arc = true
+  s.platform     = :ios, '2.0'
+  s.requires_arc = false
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
